@@ -50,6 +50,14 @@ footer{
     color: white;
     font-size: 20px;
 }
+
+.ghp p{
+    color: white;
+}
+#judul-ghp p{
+    font-weight: bold;
+    font-size: 20px;
+}
 /* end index */
 
 
