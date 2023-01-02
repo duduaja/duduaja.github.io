@@ -1,96 +1,110 @@
-body{
-    background-color: #111;
-    min-height: 500px;
+body {
+  background-color: #111;
+  min-height: 500px;
 }
 
 /* navbar */
 .navbar {
-    background-color: #111;
+  background-color: #111;
 }
-.navbar a{
-    font-weight: bold;
-    color: white;
+.navbar a {
+  font-weight: bold;
+  color: white;
 }
 
-.nav li a{
-    color: white;
+.nav li a {
+  color: white;
+}
+.feature:hover {
+  background-color: purple;
 }
 /* end navbar */
 
-footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    color: white;
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
 }
-#bawah a{
-    color: white;
+#bawah a {
+  color: white;
 }
 
 /* index */
-.info{
-    margin-top: 80px;
-    min-height: 300px;
+.info {
+  margin-top: 80px;
+  min-height: 300px;
 }
-.info img{
-    width: 150px;
+.info img {
+  width: 150px;
 }
-.info h1{
-    font-weight: bold;
-    color: white;
+.info h1 {
+  font-weight: bold;
+  color: white;
 }
 .icon i {
-    font-size: 25px;
-    color: white;
+  font-size: 25px;
+  color: white;
+}
+.fa {
+  /* position: fixed; */
+  border: 10px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.fa:hover {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: purple;
 }
 
-.about p{
-    color: white;
-    font-size: 20px;
+.about p {
+  color: white;
+  font-size: 20px;
 }
 
-.ghp p{
-    color: white;
+.ghp p {
+  color: white;
 }
-#judul-ghp p{
-    font-weight: bold;
-    font-size: 20px;
+#judul-ghp p {
+  font-weight: bold;
+  font-size: 20px;
 }
 /* end index */
 
-
 /* portofolio */
 .portofolio {
-    margin-top: 40px;
+  margin-top: 40px;
 }
-#img-porto{
-    width: 200px;
+#img-porto {
+  width: 200px;
 }
 .col-sm-5 {
-    padding: 40px;
-    color: white;
+  padding: 40px;
+  color: white;
 }
-#des-porto a{
-    color: white;
+#des-porto a {
+  color: white;
 }
 /* end portofolio */
 
-
 /* galeri */
 .galeri {
-    min-height: 400px;
+  min-height: 400px;
 }
-#gam-galeri img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+#gam-galeri img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
-#judul-galeri a{
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
+#judul-galeri a {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
 }
 /* end galeri */
