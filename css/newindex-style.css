@@ -1,0 +1,62 @@
+/* BODY */
+/* background color */
+.navbar,
+.general,
+.about,
+.footer {
+  background-color: black;
+}
+/* text color (except navbar tex) */
+.about a,
+.general h1,
+.footer a,
+p {
+  color: white;
+  text-decoration: none;
+}
+/* END BODY */
+/* NAVBAR */
+.navbar {
+  padding-top: 20px;
+}
+/* navbar text */
+.navbar a {
+  font-weight: bold;
+}
+/* END NAVBAR */
+/* GENERAL */
+.general {
+  padding-top: 80px;
+}
+.general img {
+  width: 150px;
+}
+/* icon */
+.btn-icon {
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+.btn-icon:hover {
+  background-color: purple;
+}
+/* general text */
+.general h1 {
+  padding-top: 10px;
+  font-weight: bold;
+}
+/* END GENERAL */
+
+/* ABOUT */
+.about {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+/* text about */
+.about p,
+.about a {
+  font-size: 23px;
+}
+/* END ABOUT */
