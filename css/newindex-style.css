@@ -1,4 +1,26 @@
 /* BODY */
+/* Biar body ambil tinggi penuh dan flex column */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+/* Section utama supaya ambil space tengah */
+main {
+  flex: 1; /* Ambil ruang tersisa */
+}
+
+/* Footer tetap di bawah */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
 /* background color */
 .navbar,
 .general,
